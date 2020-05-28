@@ -13,12 +13,22 @@ class ViewController: UIViewController {
     var timer: Timer!
 
     @IBAction func imageButton(_ sender: Any) {
+        if timer != nil{
+            `switch`(switchoutlet)
+        }
+                
     }
     @IBOutlet weak var imageView: UIImageView!
     
     @IBAction func unwind(_ segue: UIStoryboardSegue){
         
     }
+    
+    
+    @IBOutlet weak var nextoutlet: UIButton!
+    @IBOutlet weak var backoutlet: UIButton!
+    @IBOutlet weak var switchoutlet: UIButton!
+    
     
     
     @IBAction func next(_ sender: Any) {
@@ -35,6 +45,7 @@ class ViewController: UIViewController {
             
     }
         
+    
     @IBAction func back(_ sender: Any) {
         
         if displayImageNo > 0{
@@ -46,11 +57,17 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func `switch`(_ sender: Any) {
+    @IBAction func `switch`(_ sender: UIButton) {
         if timer == nil{
             timer = Timer.scheduledTimer(timeInterval: 2, target: self,selector: #selector(updateTimer(_:)),userInfo: nil, repeats: true )
+            nextoutlet.isEnabled = false
+            backoutlet.isEnabled = false
+            sender.setTitle("停止",for:.normal)
         }else{timer.invalidate()
               timer = nil
+            nextoutlet.isEnabled = true
+            backoutlet.isEnabled = true
+            sender.setTitle("再生",for:.normal)
         }
         
         
@@ -74,6 +91,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let image =  UIImage(named: "IMG_0056.JPG")
         imageView.image = image
+        
     }
     
     var displayImageNo = 0

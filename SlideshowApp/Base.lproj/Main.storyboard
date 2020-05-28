@@ -51,6 +51,7 @@
                                 </constraints>
                                 <state key="normal" title=" "/>
                                 <connections>
+                                    <action selector="imageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Uy-73-uuf"/>
                                     <segue destination="gqX-lC-3fj" kind="show" id="NFN-uO-fYo"/>
                                 </connections>
                             </button>
@@ -75,12 +76,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="backoutlet" destination="S8Q-yQ-h2V" id="9Rt-HY-Dzf"/>
                         <outlet property="imageView" destination="q5q-KI-LWH" id="CGi-kD-kZ4"/>
+                        <outlet property="nextoutlet" destination="si7-V6-yUd" id="cNE-3s-JvB"/>
+                        <outlet property="switchoutlet" destination="zrZ-Wr-9hy" id="ogI-H9-rnI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="130"/>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="rpu-d3-XMU">
