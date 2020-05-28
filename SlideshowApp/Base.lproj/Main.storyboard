@@ -31,7 +31,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-Wr-9hy">
                                 <rect key="frame" x="276" y="632" width="138" height="30"/>
-                                <state key="normal" title="再生・停止"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="switch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Xq-07-jvs"/>
                                 </connections>
