@@ -13,6 +13,10 @@
 		51978801247D0D6400555A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519787FF247D0D6400555A8A /* Main.storyboard */; };
 		51978803247D0D6500555A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51978802247D0D6500555A8A /* Assets.xcassets */; };
 		51978806247D0D6500555A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51978804247D0D6500555A8A /* LaunchScreen.storyboard */; };
+		5197880E247D0EE000555A8A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5197880D247D0EE000555A8A /* ViewController2.swift */; };
+		51978814247D505700555A8A /* IMG_0056.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51978813247D505700555A8A /* IMG_0056.JPG */; };
+		51978816247D505D00555A8A /* IMG_0033.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51978815247D505D00555A8A /* IMG_0033.JPG */; };
+		51978818247D506300555A8A /* IMG_2762.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51978817247D506300555A8A /* IMG_2762.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		51978802247D0D6500555A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51978805247D0D6500555A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51978807247D0D6500555A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5197880D247D0EE000555A8A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		51978813247D505700555A8A /* IMG_0056.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0056.JPG; sourceTree = "<group>"; };
+		51978815247D505D00555A8A /* IMG_0033.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0033.JPG; sourceTree = "<group>"; };
+		51978817247D506300555A8A /* IMG_2762.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2762.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		519787F8247D0D6400555A8A /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				51978813247D505700555A8A /* IMG_0056.JPG */,
+				51978815247D505D00555A8A /* IMG_0033.JPG */,
+				51978817247D506300555A8A /* IMG_2762.jpg */,
 				519787F9247D0D6400555A8A /* AppDelegate.swift */,
 				519787FB247D0D6400555A8A /* SceneDelegate.swift */,
 				519787FD247D0D6400555A8A /* ViewController.swift */,
+				5197880D247D0EE000555A8A /* ViewController2.swift */,
 				519787FF247D0D6400555A8A /* Main.storyboard */,
 				51978802247D0D6500555A8A /* Assets.xcassets */,
 				51978804247D0D6500555A8A /* LaunchScreen.storyboard */,
@@ -125,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51978818247D506300555A8A /* IMG_2762.jpg in Resources */,
 				51978806247D0D6500555A8A /* LaunchScreen.storyboard in Resources */,
 				51978803247D0D6500555A8A /* Assets.xcassets in Resources */,
+				51978814247D505700555A8A /* IMG_0056.JPG in Resources */,
+				51978816247D505D00555A8A /* IMG_0033.JPG in Resources */,
 				51978801247D0D6400555A8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				519787FE247D0D6400555A8A /* ViewController.swift in Sources */,
+				5197880E247D0EE000555A8A /* ViewController2.swift in Sources */,
 				519787FA247D0D6400555A8A /* AppDelegate.swift in Sources */,
 				519787FC247D0D6400555A8A /* SceneDelegate.swift in Sources */,
 			);
